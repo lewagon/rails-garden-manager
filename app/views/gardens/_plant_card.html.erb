@@ -1,4 +1,4 @@
-<div class="card-plant" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= image_path(plant.image_url) %>)">
+<div class="card-plant" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= plant.image_url.present? ? image_path(plant.image_url) : "https://www.ionos.fr/digitalguide/fileadmin/DigitalGuide/Teaser/error-t.jpg" %>)">
   <%= plant.name %>
   <%= link_to "+", plant_path(plant), method: :delete, data: { confirm: "Are you sure?" }, class: "card-remove-link" %>
 </div>

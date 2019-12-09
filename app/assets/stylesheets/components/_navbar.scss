@@ -16,13 +16,14 @@
     padding-top: 5px;
   }
   border-radius: 50%;
-  background: #1EDD88;
+  padding: 5px;
+  background: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .logo:hover {
-  background: #1BCB7F;
-  transition: background 0.3s ease;
+  background: rgba(240, 240, 240, 0.2);
+  transition: all 0.3s ease;
 }

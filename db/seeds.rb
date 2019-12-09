@@ -1,4 +1,6 @@
+puts "destroying gardens"
 Garden.destroy_all if Rails.env.development?
+
 
 garden_names = [
   "French garden",
@@ -8,6 +10,7 @@ garden_names = [
   "Garden in Japan",
   "Walk among flowers"
 ]
+puts "creating gardens"
 6.times do
   garden_request = RestClient.get("https://source.unsplash.com/1200x700/?garden")
   garden = Garden.new(
@@ -23,6 +26,6 @@ garden_names = [
     )
     plant.garden = garden
     plant.save!
-    sleep(2)
   end
 end
+puts "seeding done"

@@ -1,4 +1,4 @@
-<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('<%= @garden.banner_url %>');">
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('<%= @garden.banner_url %>'); height: 50vh;">
   <div class="container">
     <h1><%= @garden.name %></h1>
   </div>
@@ -7,7 +7,7 @@
 <div class="pt-30 container">
   <div class="cards">
     <% @garden.plants.each do |plant| %>
-      <%= render "plant_card", plant: plant %>
+      <%= render "gardens/plant_card", plant: plant %>
     <% end %>
   </div>
   <div class="pt-30 row justify-content-center">

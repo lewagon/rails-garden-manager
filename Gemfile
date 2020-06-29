@@ -18,6 +18,7 @@ gem 'uglifier'
 gem 'webpacker'
 gem "nokogiri", ">= 1.10.8"
 gem "rack", ">= 2.0.8"
+gem "bootstrap"
 
 group :development do
   gem 'web-console', '>= 3.3.0'

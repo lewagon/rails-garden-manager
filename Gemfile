@@ -32,4 +32,4 @@ group :development, :test do
   gem 'dotenv-rails'
 end
 
-gem "aws-sdk-s3", require: false
+# gem "aws-sdk-s3", require: false

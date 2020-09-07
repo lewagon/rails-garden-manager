@@ -220,7 +220,7 @@ DEPENDENCIES
   font-awesome-sass (~> 5.6.1)
   listen (~> 3.0.5)
   nokogiri (>= 1.10.8)
-  pg (~> 0.21)
+  pg
   pry-byebug
   pry-rails
   puma (>= 4.3.3)

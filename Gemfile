@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.6.6'
 
-gem 'bootsnap', require: false
+gem 'bootsnap', '>= 1.4.2', require: false
 # gem 'jbuilder', '~> 2.0'
 gem 'pg', '~> 0.21'
 gem "puma", ">= 4.3.3"
@@ -13,6 +13,7 @@ gem 'rest-client'
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass', '~> 5.6.1'
 gem 'sassc-rails'
+gem 'bootstrap', '~> 4.5.2'
 gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'

@@ -27,3 +27,5 @@ garden_names.each do |garden_name|
     sleep(2)
   end
 end
+
+puts "seed done"

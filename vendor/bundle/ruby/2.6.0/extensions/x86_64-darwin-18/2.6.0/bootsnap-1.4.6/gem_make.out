@@ -1,0 +1,15 @@
+current directory: /Users/anthony/code/AnthoXLMA/rails-garden-manager/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.6/ext/bootsnap
+/Users/anthony/.rbenv/versions/2.6.6/bin/ruby -I /Users/anthony/.rbenv/versions/2.6.6/lib/ruby/2.6.0 -r ./siteconf20200907-79456-1e6ztlm.rb extconf.rb
+creating Makefile
+
+current directory: /Users/anthony/code/AnthoXLMA/rails-garden-manager/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.6/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/anthony/code/AnthoXLMA/rails-garden-manager/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.6/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/anthony/code/AnthoXLMA/rails-garden-manager/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.6/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20200907-79456-1qvrxp1/bootsnap

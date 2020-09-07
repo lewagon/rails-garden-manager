@@ -1,0 +1,15 @@
+current directory: /Users/anthony/code/AnthoXLMA/rails-garden-manager/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.2/ext/websocket-driver
+/Users/anthony/.rbenv/versions/2.6.6/bin/ruby -I /Users/anthony/.rbenv/versions/2.6.6/lib/ruby/2.6.0 -r ./siteconf20200907-79456-1xi56op.rb extconf.rb
+creating Makefile
+
+current directory: /Users/anthony/code/AnthoXLMA/rails-garden-manager/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.2/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /Users/anthony/code/AnthoXLMA/rails-garden-manager/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.2/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/anthony/code/AnthoXLMA/rails-garden-manager/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.2/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20200907-79456-hylmk0

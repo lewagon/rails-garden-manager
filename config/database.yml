@@ -83,3 +83,5 @@ production:
   database: rails-garden-manager_production
   username: rails-garden-manager_production
   password: <%= ENV['rails-garden-manager_DATABASE_PASSWORD'] %>
+
+  url: <%= ENV['POSTGRESQL_ADDON_URI'] %>

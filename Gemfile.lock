@@ -76,7 +76,7 @@ GEM
     execjs (2.7.0)
     faker (2.12.0)
       i18n (>= 1.6, < 2)
-    ffi (1.13.0)
+    ffi (1.13.1)
     font-awesome-sass (5.6.1)
       sassc (>= 1.11)
     globalid (0.4.2)
@@ -86,9 +86,10 @@ GEM
       domain_name (~> 0.5)
     i18n (1.8.2)
       concurrent-ruby (~> 1.0)
-    listen (3.0.8)
+    listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
+      ruby_dep (~> 1.2)
     loofah (2.5.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
@@ -161,6 +162,7 @@ GEM
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 4.0)
       netrc (~> 0.8)
+    ruby_dep (1.5.0)
     sassc (2.4.0)
       ffi (~> 1.9)
     sassc-rails (2.1.2)
@@ -218,7 +220,7 @@ DEPENDENCIES
   dotenv-rails
   faker
   font-awesome-sass (~> 5.6.1)
-  listen (~> 3.0.5)
+  listen (~> 3.1.5)
   nokogiri (>= 1.10.8)
   pg (~> 0.21)
   pry-byebug

@@ -223,7 +223,7 @@ DEPENDENCIES
   pg (~> 0.21)
   pry-byebug
   pry-rails
-  puma (>= 4.3.3)
+  puma (>= 4.3.5)
   rack (>= 2.0.8)
   rails
   redis

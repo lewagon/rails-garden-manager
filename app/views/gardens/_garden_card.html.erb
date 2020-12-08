@@ -1,6 +1,10 @@
 <%= link_to garden_path(garden) do %>
   <div class="card-garden">
-    <%= image_tag garden.banner_url %>
+    <% if (garden.banner_url =~ URI::regexp).nil? %>
+      <%= image_tag 'https://www.dickson-constant.com/medias/images/catalogue/api/m654-grey-680.jpg' %>
+    <% else %>
+      <%= image_tag garden.banner_url %>
+    <% end %>
     <div class="card-garden-infos">
       <div>
         <h2><%= garden.name %></h2>

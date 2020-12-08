@@ -4,7 +4,7 @@ ruby '2.6.6'
 gem 'bootsnap', require: false
 # gem 'jbuilder', '~> 2.0'
 gem 'pg', '~> 0.21'
-gem "puma", ">= 4.3.3"
+gem "puma", "~> 5.1"
 gem 'rails'
 gem 'redis'
 gem 'faker'
@@ -15,9 +15,10 @@ gem 'font-awesome-sass', '~> 5.6.1'
 gem 'sassc-rails'
 gem 'simple_form'
 gem 'uglifier'
-gem 'webpacker'
+gem 'webpacker', '~> 5.x'
 gem "nokogiri", ">= 1.10.8"
 gem "rack", ">= 2.0.8"
+gem 'bootstrap', '~> 5.0.0.alpha3'
 
 group :development do
   gem 'web-console', '>= 3.3.0'

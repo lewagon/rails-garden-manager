@@ -4,7 +4,7 @@ ruby '2.6.6'
 gem 'bootsnap', require: false
 # gem 'jbuilder', '~> 2.0'
 gem 'pg', '~> 0.21'
-gem "puma", ">= 4.3.3"
+gem 'puma', '~>4.3.5'
 gem 'rails'
 gem 'redis'
 gem 'faker'
@@ -16,11 +16,11 @@ gem 'sassc-rails'
 gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
-gem "nokogiri", ">= 1.10.8"
-gem "rack", ">= 2.0.8"
+gem 'nokogiri', '~> 1.10.8'
+gem 'rack', '~> 2.0.8'
 
 group :development do
-  gem 'web-console', '>= 3.3.0'
+  gem 'web-console', '~> 3.3.0'
 end
 
 group :development, :test do

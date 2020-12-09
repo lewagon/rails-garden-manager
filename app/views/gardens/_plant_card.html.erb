@@ -1,4 +1,4 @@
-<div class="card-plant" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= plant.image_url %>)">
+<div class="card-plant" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= plant.image_url %>), url('https://source.unsplash.com/400x300/?flower')">
   <%= plant.name %>
   <%= link_to "+", plant_path(plant), method: :delete, data: { confirm: "Are you sure?" }, class: "card-remove-link" %>
 </div>

@@ -31,4 +31,4 @@ group :development, :test do
   gem 'dotenv-rails'
 end
 
-gem 'mimemagic'
+gem 'mimemagic', '~> 0.4.2'
